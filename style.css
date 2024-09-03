@@ -1,0 +1,114 @@
+body {
+   height: 100vh; 
+   font-family: "Open Sans", sans-serif;
+}
+header {
+    border: 1px solid #000;
+    /* height: 15vh; */
+    padding: 1rem 1rem 1rem 5rem;
+    /* padding-top: 4rem; */
+    color: #fff;
+    font-size: 14px;
+    background-color: #1b1b1b;;
+    /* text-align: center; */
+}
+#open {
+    display: none;
+}
+#close {
+    display: none;
+
+}
+.position-sticky {
+    position: sticky;
+    top: 0px;
+}
+.navbar h2 {
+    display: inline-block;
+    font-size: 42px;
+}
+.navbar.float-right {
+    padding: 22px 0px;
+    background-color: #1b1b1b;
+}
+.navbar.float-right a {
+    padding:26px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.float-right {
+    float: right;
+}
+
+aside {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+    
+}
+aside ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+ul li a {
+    text-decoration: none;
+}
+main {
+    width: 79%;
+    display: inline-block;
+    vertical-align: top;
+}
+main article {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+}
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    border: 1px solid #000;
+    color: #fff;;
+    padding: 1rem 1rem 1rem 0rem;
+    background-color: #000;
+}
+@media (min-width:375px) and (max-width:768px) {
+    aside {
+        width: 100%;
+        display: block;
+    }
+    main {
+        width: 100%;
+        display: block;
+    }
+    header {
+        padding: 10px;
+        text-align: left;
+    }
+    .navbar {
+        display: inline-block;
+        width: 100%;
+    }
+    .navbar button {
+        margin-left: 20px;
+        /* padding-left: 20px; */
+    }
+    .navbar.float-right a {
+        display: block;
+        padding: 10px;
+    }
+    #side-menu {
+        display: none;
+    }
+    #open {
+        display: inline-block;
+    }
+    #close {
+        display: none;
+        margin-left: 10px;
+    }
+}
